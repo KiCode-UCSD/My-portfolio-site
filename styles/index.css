@@ -1,0 +1,21 @@
+contact-info { 
+    width: 98%;
+    padding: .7em;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: rgb(222, 222, 222);
+
+    /* align span elements  within contact-info*/
+    display:inline-block;
+    text-align: justify;
+    text-align-last: center;
+}
+
+contact-info > span {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 0.25em; 
+
+    text-align: center;
+}
